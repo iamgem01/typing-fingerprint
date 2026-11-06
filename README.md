@@ -34,6 +34,3 @@ Mặc định chỉ xuất lượt valid. Thêm `--include-invalid` để kiểm
 
 Mỗi người 10–20 lượt mỗi buổi, ít nhất hai buổi khác nhau để thử quy trình (không phải khẳng định quy mô đủ cho mô hình). Khi đánh giá sau này, tách tập theo buổi thực tế; không chia ngẫu nhiên các phím của cùng lượt vào train/test. Dùng mã ẩn danh, xin đồng thuận và giới hạn người được giữ file sinh trắc học. Chưa có chức năng khớp danh tính trong bản này.
 
-## Bản sửa khởi tạo Windows
-
-Trang dùng app.bundle.js (script thường) thay vì tải trực tiếp module .mjs để tránh phụ thuộc MIME module trên máy chủ Windows. Form không tự điều hướng khi JavaScript chưa khởi tạo; nút bắt đầu chỉ bật sau khi khởi tạo xong. Sau thay file, dùng Ctrl + F5. Khi sửa app.js hoặc recorder.mjs, cần tạo lại bundle bằng scripts/build_browser.py.

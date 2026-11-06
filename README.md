@@ -8,7 +8,7 @@ Bản thu thập dữ liệu, chưa huấn luyện hay xác thực danh tính. H
 python -m http.server 8000 --directory dist
 ```
 
-Mở http://localhost:8000 bằng Chrome/Firefox/Edge trên máy có bàn phím vật lý. Dùng bộ gõ tiếng Anh, không dùng IME. Chọn mã ẩn danh (P01), buổi thu (S01), loại bàn phím, câu mẫu và đồng ý trước khi bắt đầu. Gõ đúng câu rồi thả hết phím, nhấn Enter để lưu. Câu mẫu bao gồm khoảng trắng, không có dấu chấm cuối.
+Mở http://localhost:8000. Chọn mã ẩn danh (P01), buổi thu (S01), loại bàn phím, câu mẫu và đồng ý trước khi bắt đầu. Gõ đúng câu rồi thả hết phím, nhấn Enter để lưu. Câu mẫu bao gồm khoảng trắng, không có dấu chấm cuối.
 
 Dữ liệu hoàn thành được lưu trong localStorage theo trình duyệt và địa chỉ web. Không đồng bộ giữa máy hay tài khoản, không có API thu thập tập trung. Xuất JSON sau mỗi buổi rồi chuyển file cho người quản lý bộ dữ liệu. Đừng nhập mật khẩu hoặc nội dung riêng tư vào ô thử nghiệm.
 
